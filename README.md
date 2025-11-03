@@ -81,11 +81,13 @@ Metrics computed:
 pairs = select_pairs(px, formation=252)
 results = backtest(px, pairs, formation=252, trading=126)
 results.sort_values("sharpe", ascending=False)
+```
+📂 Project Structure
 
 ├── pairs_trading_ou.py   ← Full model & backtesting engine
 └── README.md
 
-
+✅ Requirements
 numpy
 pandas
 statsmodels
